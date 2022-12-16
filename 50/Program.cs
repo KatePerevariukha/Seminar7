@@ -27,7 +27,7 @@ int x = Convert.ToInt32(Console.ReadLine());
 Console.Write("Номер столбца: ");
 int y = Convert.ToInt32(Console.ReadLine());
 
-if (x > matrix.GetLength(0) || y > matrix.GetLength(1))
+if (x >= matrix.GetLength(0) || y >= matrix.GetLength(1))
 {
     Console.WriteLine("такого элемента нет");
 }
